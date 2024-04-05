@@ -1,0 +1,25 @@
+.replacement-area {
+  border: 1px solid black;
+  display: none;
+  flex-direction: row;
+  height: max-content;
+  width: max-content;
+  margin-bottom: 5px;
+}
+
+.replacement-area__item {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.replacement-area_visible {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .replacement-area {
+    height: min-content;
+    width: min-content;
+  }
+}

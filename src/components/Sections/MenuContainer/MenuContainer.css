@@ -1,0 +1,24 @@
+.menu-section {
+  left: -20vw;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-section {
+    left: -25vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu-section {
+    left: -40vw;
+  }
+}
+
+.menu-section_open {
+  overflow: hidden;
+  left: 0;
+}
+
+.menu-section__label {
+  right: -15px;
+}
