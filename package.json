@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/sdlmdev/Chess",
+  "homepage": "https://sdlmdev.github.io/Chess/",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
